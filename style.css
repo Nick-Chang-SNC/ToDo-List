@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(#BEE5EE, #48B8D0);
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 2rem 5rem;
+}
+
+.card {
+    background-color: #8AE1FC;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px #022E3C;
+    padding: 1rem 2.5rem;
+    width: 80%;
+    margin: 50px auto;
+    max-width: 650px;
+    min-width: 250px;
+}
+
+.card-title {
+    text-align: center;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    margin: 1rem 0;
+}
+
+.card-content {
+    margin-top: 2rem;
+}
+
+#task,
+#filter {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    width: 100%;
+    line-height: 1.6;
+    background-color: #8AE1FC;
+    color: #fff;
+    font-size: 18px;
+}
+
+label {
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn {
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 5px;
+    margin: .5rem 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.card-action {
+    margin-top: 2rem;
+}
+
+#task-title {
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: .5rem;
+}
+
+.collection {
+    margin-top: .5rem;
+}
+
+.collection-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: .5rem;
+    word-break: break-all;
+    font-family: 'Nunito', sans-serif;
+}
+
+.delete-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    margin: 5px;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.delete-item:hover {
+    background-color: blue;
+}
+
+.clear-tasks {
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 5px;
+    margin: .5rem 0;
+}
+
+.copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
